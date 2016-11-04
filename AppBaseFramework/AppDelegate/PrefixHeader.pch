@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  AppBaseFramework
+//
+//  Created by honyork on 2016/11/4.
+//  Copyright © 2016年 HuaJianCi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//------------   状态栏导航栏   ------------//
+#import "MGTabBarController.h"
+#import "MGNavigationController.h"
+
+
+//------------   相关宏   ------------//
+#import "AppMacro.h"        //基础宏
+#import "ModelMacro.h"      //model相关宏
+#import "ThirdPartyMacro.h" //第三方相关宏
+
+
+//------------   常用类目   ------------//
+#import "UIView+YMExtension.h"   
+#import "NSArray+Extend.h"        //数据处理
+#import "UIImage+TOOL.h"          //image压缩
+#import "UIImage+YJExtension.h"   //圆形图片
+#import "UITextView+Placeholder.h"
+#import "NSDate+YMExtension.h"
+
+
+//------------   网络请求   ------------//
+#import "AFNetworking.h"
+#import "UIKit+AFNetworking.h"
+
+
+//------------   常用工具   ------------//
+#import "SVProgressHUD.h"   //提示
+#import "NetJSON.h"         //数据转json
+#import "SDImageCache.h"    //sdwebimage
+#import "Manager.h"         //正则判断
+#import "Masonry.h"         //约束
+
+//------------   工程   ------------//
+
+
+#endif /* PrefixHeader_pch */

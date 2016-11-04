@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Privacy - Location Always Usage Description </key>
+	<string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
+	<key>Privacy - Location When In Use Usage Description </key>
+	<string>我们需要通过您的地理位置信息获取您周边的相关数据</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>是否允许此App使用日历？</string>
+	<key>Privacy - Speech Recognition Usage Description </key>
+	<string>是否允许此App使用语音识别？</string>
+	<key>Privacy - Bluetooth Peripheral Usage Description </key>
+	<string>是否许允此App使用蓝牙？</string>
+	<key>NSContactsUsageDescription</key>
+	<string>是否允许此App访问你的通讯录？</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>是否允许此App访问你的媒体资料库？</string>
+	<key>NSCameraUsageDescription</key>
+	<string>是否允许此App使用你的相机？</string>
+	<key>Privacy - Microphone Usage Description </key>
+	<string>是否允许此App使用你的麦克风？</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -22,8 +40,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
