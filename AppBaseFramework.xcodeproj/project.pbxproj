@@ -92,6 +92,7 @@
 		04B54A541DCC68E3006BE2F7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B54A471DCC68E3006BE2F7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		04B54A551DCC68E3006BE2F7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B54A491DCC68E3006BE2F7 /* View+MASAdditions.m */; };
 		04B54A561DCC68E3006BE2F7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B54A4C1DCC68E3006BE2F7 /* ViewController+MASAdditions.m */; };
+		04B54A5D1DCC833A006BE2F7 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B54A5C1DCC833A006BE2F7 /* LoginVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,6 +293,8 @@
 		04B54A4A1DCC68E3006BE2F7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		04B54A4B1DCC68E3006BE2F7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		04B54A4C1DCC68E3006BE2F7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		04B54A5B1DCC833A006BE2F7 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		04B54A5C1DCC833A006BE2F7 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -788,6 +791,8 @@
 		04B54A571DCC6C0B006BE2F7 /* LoginVC */ = {
 			isa = PBXGroup;
 			children = (
+				04B54A5B1DCC833A006BE2F7 /* LoginVC.h */,
+				04B54A5C1DCC833A006BE2F7 /* LoginVC.m */,
 			);
 			path = LoginVC;
 			sourceTree = "<group>";
@@ -964,6 +969,7 @@
 				04B549DB1DCC639E006BE2F7 /* UIImageView+HighlightedWebCache.m in Sources */,
 				04B549AD1DCC61EB006BE2F7 /* SVProgressHUD.m in Sources */,
 				04B5499A1DCC60FF006BE2F7 /* AFNetworkReachabilityManager.m in Sources */,
+				04B54A5D1DCC833A006BE2F7 /* LoginVC.m in Sources */,
 				04B549571DCC58AB006BE2F7 /* MGTabBarController.m in Sources */,
 				04B549A41DCC60FF006BE2F7 /* UIImageView+AFNetworking.m in Sources */,
 				04B549A51DCC60FF006BE2F7 /* UIProgressView+AFNetworking.m in Sources */,

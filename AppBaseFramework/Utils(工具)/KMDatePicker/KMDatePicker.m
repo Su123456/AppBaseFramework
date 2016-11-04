@@ -229,7 +229,7 @@
 
 - (void)cancel:(UIButton *)sender {
     [UIView animateWithDuration:0.5 animations:^{
-        self.frame = FRAME(0, 516, 320, 216);
+        self.frame = CGRectMake(0, 516, 320, 216);
     }];
 }
 
@@ -252,7 +252,7 @@
     
     [self cancel:sender];
     [UIView animateWithDuration:0.5 animations:^{
-        self.frame = FRAME(0, 526, 320, 216);
+        self.frame = CGRectMake(0, 526, 320, 216);
     }];
 }
 

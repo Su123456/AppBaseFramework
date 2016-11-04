@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor colorWithWhite:0.906 alpha:1.000];
     
+    LoginVC *login = [[LoginVC alloc]init];
+    _navigationController = [[MGNavigationController alloc]initWithRootViewController:login];
+    self.window.rootViewController = _navigationController;
+    
+    [self.window makeKeyAndVisible];
+    
+   
     return YES;
 }
 
